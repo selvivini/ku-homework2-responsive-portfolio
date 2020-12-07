@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    margin:0;
+    
+}
+header h3{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgba(4, 117, 121, 0.637);
+    color: white;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav{
+   float:right;
+   margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header nav ul{
+    display: inline-block;
+}
+ li.nav-item a{
+    color:grey;
+    font-size: 30px;
+ }
+a.active{
+color: black;
+}
+
+ 
+
+main{
+    background-image: url('/assets/images/backgroud_img.jpg');
+    
+    padding: 40px;
+}
+
+
+main.card{
+
+   padding:20px;
+}
+
+h1.card-title{
+    font-size: 55px;
+    color:rgba(4, 117, 121, 0.637);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img.img-fluid{
+    width: 200px;
+    height:200px;
+}
+
+div.row-two{
+    margin: 20px;
+}
+footer{
+    border-top: .5rem solid rgba(4, 117, 121, 0.637) ;
+    position:sticky;
+    bottom:0;
+    background-color: rgb(82, 77, 77);
+    padding: 20px;
+}
