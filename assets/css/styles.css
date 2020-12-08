@@ -58,9 +58,15 @@ h1.card-title{
     font-family: 'Times New Roman', Times, serif;
 }
 
-img.img-fluid{
+img.img-fluid.profile{
     width: 200px;
     height:200px;
+    
+}
+
+img.img-fluid.portfolio{
+    width: 350px;
+    height: 350px;
 }
 
 form{
@@ -73,24 +79,22 @@ label{
     font-size:20px;
 }
 
-input{
+input, textarea{
     border-radius: 0px !important;
 }
 
-#message{
-    height: 5rem !important;
-}
+
 
 .btn.btn-primary{
     background-color: rgba(4, 117, 121, 0.637);
     border-color: white;
     border-radius: 0px;
-    width: 7rem;
-    height: 5rem;
+    width: 8rem;
+    height: 4rem;
 }
 
 div.row-two{
-    margin: 20px;
+    margin: 10px;
 }
 footer{
     margin-top: 20px;
