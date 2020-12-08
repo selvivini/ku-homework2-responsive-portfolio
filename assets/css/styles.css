@@ -9,7 +9,7 @@
     
 }
 header h3{
-    margin-top: 20px;
+    margin: 20px;
     display: inline-block;
     background-color: rgba(4, 117, 121, 0.637);
     color: white;
@@ -35,7 +35,9 @@ a.active{
 color: black;
 }
 
- 
+ a.navlink:active{
+     color:black;
+ }
 
 main{
     background-image: url('/assets/images/backgroud_img.jpg');
@@ -61,10 +63,37 @@ img.img-fluid{
     height:200px;
 }
 
+form{
+    margin:40px;
+    padding: 40px;
+}
+
+label{
+    color:black;
+    font-size:20px;
+}
+
+input{
+    border-radius: 0px !important;
+}
+
+#message{
+    height: 5rem !important;
+}
+
+.btn.btn-primary{
+    background-color: rgba(4, 117, 121, 0.637);
+    border-color: white;
+    border-radius: 0px;
+    width: 7rem;
+    height: 5rem;
+}
+
 div.row-two{
     margin: 20px;
 }
 footer{
+    margin-top: 20px;
     border-top: .5rem solid rgba(4, 117, 121, 0.637) ;
     position:sticky;
     bottom:0;
