@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-.container-fluid{
-    margin:0;
-    
-}
 header h3{
     margin: 20px;
     display: inline-block;
@@ -41,14 +36,12 @@ color: black;
 
 main{
     background-image: url('/assets/images/backgroud_img.jpg');
-    
     padding: 40px;
 }
 
 
 main.card{
-
-   padding:20px;
+padding:20px;
 }
 
 h1.card-title{
